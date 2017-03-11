@@ -1,0 +1,81 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.png) repeat-y bottom;
+    background-size: cover;
+}
+
+.intro-section {
+    height: 300px;
+    position: relative;
+    text-align: center;
+    background: -webkit-linear-gradient(top, rgba(183,37,125,0.4) 1%,rgba(227,121,185,0.8) 99%), url(../img/cover.jpg) no-repeat center center scroll;
+    background-size: cover;
+}
+
+table tbody tr a {
+  color: #b7257d;
+}
+
+table tbody tr a:hover {
+  color: #8d155d;
+}
+.main-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+}
+
+.btn-about {
+  background: #b7257d;
+  border: none;
+  color: #fff;
+}
+
+.btn-about:hover, .btn-about:focus, .btn-about:active, .btn-about:visited {
+  background: #8d155d;
+  color: #fff;
+}
+
+.about-section {
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    text-align: left;
+}
+
+thead {
+  background: #b7257d;
+  color: #fff;
+  text-align: center;
+}
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+@media all and (max-width: 1200px) {
+  html {
+      width: 100%;
+      height: 100%;
+      background: none !important;
+  }
+}
